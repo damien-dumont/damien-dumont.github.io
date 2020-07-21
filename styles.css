@@ -1,9 +1,21 @@
 body { 
+  margin-left: 150px;
+  margin-right: 150px;
   text-align: center; 
-  background-color: MediumSeaGreen;
   color: white;
+  background-image: url("Belgique.jpeg");
 }
 
 h1 {
-  color: black;
+  background-color: black;
+  border: 2px black;
+  border-radius: 15px;
+}
+
+h3 {
+  margin-left: 70px;
+  margin-right: 70px;
+  background-color: MediumSeaGreen;
+  border: 2px black;
+  border-radius: 15px;
 }
