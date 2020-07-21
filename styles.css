@@ -3,6 +3,7 @@ body {
   margin-right: 70px;
   text-align: center; 
   color: white;
+  background-position: center; 
 }
 
 #menu { 
@@ -11,12 +12,6 @@ body {
 
 #Polls { 
   background-image: url("Belgique.jpeg");
-}
-
-#Home {
-  position: absolute;
-  bottom: 0;
-  left: 0;
 }
 
 h1 {
@@ -44,3 +39,8 @@ p {
   color: black;
 }
 
+#Home {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
