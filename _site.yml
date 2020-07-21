@@ -1,0 +1,14 @@
+name: "template"
+title: "Data analysis by Dumont Damien"
+output_dir: "docs"
+navbar:
+  right:
+    - text: "Home"
+      href: index.html
+base_url: https://damien-dumont.github.io
+collections:
+    posts:
+      share: [twitter, linkedin, facebook]
+output:
+  distill::distill_article:
+    css: styles.css
