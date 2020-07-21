@@ -6,6 +6,7 @@ body {
   background-position: center; 
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-color: #ADADAD;
 }
 
 #menu { 
@@ -42,7 +43,7 @@ p {
 }
 
 #Home {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   left: 0;
   background-color: white;
