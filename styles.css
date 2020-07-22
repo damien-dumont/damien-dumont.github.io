@@ -7,6 +7,7 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #ADADAD;
+  background-size: contain;
 }
 
 #menu { 
@@ -28,7 +29,7 @@ h1 {
 h3 {
   margin-left: 150px;
   margin-right: 150px;
-  background-color: #D64F5A;
+  background-color: #4fd665;
   border: 2px black;
   border-radius: 15px;
 }
@@ -42,10 +43,17 @@ p {
   color: black;
 }
 
-#Home {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  background-color: white;
-  color:black;
+p.home {
+  position:absolute;
+  width: 100px;
+  height: auto;
+  margin-left:-50px;
+  background:#063;
+  bottom:0px;
+  left:50%;
+  background-color: #2923D3;
+}
+
+a.home {
+color:rgb(255, 255, 255);
 }
