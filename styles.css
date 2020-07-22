@@ -1,10 +1,7 @@
 body { 
-  margin-left: 70px;
-  margin-right: 70px;
   text-align: center; 
   color: white;
-  background-position: center; 
-  background-repeat: no-repeat;
+  background-position: center top;
   background-attachment: fixed;
   background-color: #ADADAD;
   background-size: contain;
@@ -19,32 +16,42 @@ body {
 }
 
 h1 {
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 10%;
+  margin-right: 10%;
   background-color: black;
-  border: 2px black;
+  border: 2px white;
   border-radius: 15px;
 }
 
-h3 {
-  margin-left: 150px;
-  margin-right: 150px;
-  background-color: #4fd665;
+h3{
+  margin-left: 20%;
+  margin-right: 20%;
+  background-color: #297C45;
   border: 2px black;
-  border-radius: 15px;
+  border-radius: 10px;
+  color:black;
+}
+
+h4{
+  margin-left: 23%;
+  margin-right: 23%;
+  background-color: #3e9e5e;
+  border: 2px black;
+  border-radius: 10px;
+  color:black;
 }
 
 p {
-  margin-left: 180px;
-  margin-right: 180px;
+  margin-left: 25%;
+  margin-right: 25%;
   background-color: white;
   border: 2px white;
-  border-radius: 15px;
+  border-radius: 10px;
   color: black;
 }
 
 p.home {
-  position:absolute;
+  position:fixed;
   width: 100px;
   height: auto;
   margin-left:-50px;
@@ -57,3 +64,11 @@ p.home {
 a.home {
 color:rgb(255, 255, 255);
 }
+
+#search {
+  padding: 20px;
+  background: rgb(34,34,34); /* for IE */
+  background: rgba(34,34,34,0.9);
+  margin-left: 20%;
+  margin-right: 20%;
+  }
