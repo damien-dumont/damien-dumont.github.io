@@ -7,8 +7,54 @@
 		<link rel="stylesheet" href="styles.css"/>
 	</head>
 	<body id="menu">
-		<h1> Data analysis by Dumont Damien </h1>
-		<h3> Navigate among my projects here </h3>
-		<p><a href="Polling.html" title="Polling"> 2020 opinion polling for the next Belgian federal election</a></p>
+		<style type="text/css">
+		h1,h3{
+		
+		position: fixed;
+		top: 0;
+		margin-left: 0;
+		margin-top: 0;
+		border-radius: 0;
+		padding-top: 10px;
+		padding-bottom: 10px;
+		color: black;
+		}
+
+		#title {
+		left: 0;
+		padding-left: 20px;
+		padding-right: 20px;
+		background-color: green;
+		}
+		#projects,#about{
+		padding-left: 50px;
+		padding-right: 50px;
+		background-color: forestgreen;
+
+		}
+
+		#projects {
+		left: 499px;
+		}
+		
+		#about {
+		left:763px;
+		}
+
+		#projects:hover,#about:hover {
+		background-color: greenyellow;
+		}
+
+		a{
+		text-decoration: none;
+		color: black;
+		}
+
+
+		</style>
+		<h1 id="title"> Data analysis by Dumont Damien</h1>
+		<h1 id="projects" class="links"><a href="Polling.html" title="Polling">My projects</a></h1>
+		<h1 id="about" class="links"> About </h1>
+		<!--- <p><a href="Polling.html" title="Polling"> 2020 opinion polling for the next Belgian federal election</a></p> -->
 	</body>
 </html>
